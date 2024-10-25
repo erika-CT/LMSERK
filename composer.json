@@ -1,0 +1,13 @@
+{
+    "require": {
+        "cboden/ratchet": "0.4",
+        "react/socket": "0.8",
+        "react/event-loop": "0.4",
+         "froala/wysiwyg-editor-php-sdk" : ""
+    },
+    "autoload": {
+        "psr-4": {
+            "Erika\\": "php/"
+        }
+    }
+}

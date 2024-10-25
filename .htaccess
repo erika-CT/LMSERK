@@ -1,0 +1,15 @@
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type"
+</IfModule>
+<FilesMatch "\.(mp3|wav)$">
+    ForceType application/octet-stream
+    Header set Content-Disposition attachment
+</FilesMatch>
+
+RewriteEngine On
+
+# Si la solicitud es dentro de la carpeta "views", redirige a index.php
+RewriteCond %{REQUEST_URI} ^/views/ [NC]
+RewriteRule ^(.*)$ /index.php [QSA,L]

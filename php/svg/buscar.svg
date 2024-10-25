@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+                        width="20" height="20"
+                        fill="none" stroke="currentColor" s
+                        troke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2"
+                        class="feather feather-search w-5 h-5  transition duration-75 text-[#fff] group-hover:text-gray-900 dark:group-hover:text-white"
+                        aria-hidden="true"
+
+                        viewBox="0 0 24 24">
+                        <defs></defs>
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="M21 21l-4.35-4.35"></path>
+                    </svg>
