@@ -1,6 +1,8 @@
 <?php
 ob_start();
 //testing for git
+//prueba de commits
+//Cambios en la rama prueba
 if (session_status() == PHP_SESSION_NONE)
     session_start();
 require './php/db/conn.php';
