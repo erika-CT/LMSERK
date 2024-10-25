@@ -1,5 +1,6 @@
 <?php
 ob_start();
+//testing for git
 if (session_status() == PHP_SESSION_NONE)
     session_start();
 require './php/db/conn.php';
